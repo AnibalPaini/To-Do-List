@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Geologica", sans-serif;
+    color: #fff;
+}
+
+body{
+    background: #fff;
+}
+
+.contenedor h1, h3{
+    align-items: center;
+    text-align: center;
+}
+h1{
+    font-size: 40px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+p{
+    padding: 10px;
+}
+
+.contenedor{
+    max-width: 500px;
+    margin: 100px auto;
+    background-color: #676991;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.781);
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.formulario{
+    display: flex;
+    padding: 10px;
+    margin-top: 10px;
+    align-items: center;
+    text-align: center;
+}
+
+.input-texto{
+    width: 100%;
+    padding: 10px;
+    color: black;
+    outline: none;
+    background-color: #f4f6f9;
+}
+
+.btn{
+    width: 44px;
+    margin-left: 5px;
+    background-color: #595b7a;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer; 
+    transition: background-color 0.3s;
+    border: none;
+    font-weight: bold;
+}
+.btn:hover{
+    background-color: rgb(10, 14, 87);   
+}
+
+.contenedor-listado{
+    max-width: 100%;
+    color: darkslategray;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+ul{
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    background-color: #ebeef4;
+    border-radius: 5px;
+    margin-top: 15px;
+    display: flex;
+    word-wrap: break-word; /* Permite que las palabras largas se ajusten y hagan saltos de línea */
+    overflow-wrap: break-word; /* Propiedad alternativa para navegadores más antiguos */
+    word-break: break-all;/* Permite que las palabras se rompan para ajustarse al ancho del contenedor */
+}
+
+li p {
+    margin: 0;
+    padding: 15px;
+    width: 100%;
+    color: black;
+}
+
+.btn-eliminar{
+    margin-left: auto;
+    border: none;
+    background-color: #4b4d64;
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px;
+    outline: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 10%;
+    font-size: 1.2em;
+    cursor: pointer; 
+    transition: background-color 0.3s;
+}
+
+.btn-eliminar:hover{
+    background-color: #ff003c;
+    color: rgb(0, 0, 0);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.781);
+}
+
+.btn-vaciar{
+    display: flex;
+    color: #2c2d3a;
+    margin: 0 auto;
+    padding: 10px;
+    margin-top: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.781);
+    background-color: #c4cbdd;
+    border: none;
+}
